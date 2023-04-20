@@ -55,6 +55,12 @@ a{
 }
 
 
+a:hover{
+    text-decoration: underline;
+    font-size: large;
+}
+
+
 
 /* UTILITIES */
 
@@ -62,8 +68,6 @@ a{
     width: 1080px;
     margin: 0 auto;
 }
-
-
 
 
 .clearfix::after{
