@@ -11,6 +11,8 @@
 
 :root{
     --bg-color: rgb(0,0,0);
+    --info-color: white;
+    --email-color: rgb(82,183,223)
 }
 
 
@@ -22,8 +24,30 @@ body{
 
 h1{
     color: rgb(229,49,112);
-    margin-top: 40px;
-    margin-bottom: 40px;
+    
+}
+
+
+img{
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+h2{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+a{
+    color: var(--email-color);
+    text-decoration: none;
 }
 
 
@@ -34,7 +58,17 @@ h1{
     margin: 0 auto;
 }
 
+.margin{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
 
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+    border: 1px dotted red;
+}
 
 /* HEADER */
 
@@ -42,4 +76,12 @@ h1{
     text-align: center;
 }
 
+/* CARDS LAYOUT*/
 
+.card{
+    width: calc(100% / 3);
+    background-color: var(--bg-color);
+    color: var(--info-color);
+    line-height: 25px;
+    float: left;
+}
