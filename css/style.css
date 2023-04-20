@@ -23,15 +23,12 @@ body{
     font-family: Fredoka, 'Comic Sans', cursive
 }
 
+
 h1{
     color: rgb(229,49,112);
-    font-size: 50px;
-    
+    font-size: 50px;  
 }
 
-p{
-    font-size: 20px;
-}
 
 img{
     height: 100px;
@@ -39,10 +36,12 @@ img{
     margin-right: 15px;
 }
 
+
 h2{
     padding-top: 15px;
     font-size: 20px;
 }
+
 
 h3{
     font-size: 15px;
@@ -65,10 +64,6 @@ a{
 }
 
 
-.margin{
-    margin-top: 15px;
-    margin-bottom: 40px;
-}
 
 
 .clearfix::after{
@@ -84,11 +79,14 @@ a{
 
 
 
-/* HEADER */
+/* TEAM MEMEBERS PRESENTATION */
 
-.header{
+.team-presentation h1, p{
+    margin-top: 15px;
+    margin-bottom: 40px;
     text-align: center;
 }
+
 
 
 
